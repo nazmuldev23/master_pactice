@@ -5,6 +5,7 @@ return MaterialApp(
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
+      locale: Locale('en'),// enable language en 
       supportedLocales: [
         Locale('en'),
         Locale('bn')
