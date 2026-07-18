@@ -4,5 +4,6 @@ void main(){
   num hight = 5.6; //int or double
   String name = 'Nazmul';//String
   bool isLogin = true;
-  print("Hi I am $name.I am $number years old.My result is $result,My hight $hight,MY id $isLogin");
+  dynamic address = 'dhaka';
+  print("Hi I am $name.I am $number years old.My result is $result,My hight $hight,MY id $isLogin address $address");
 }
